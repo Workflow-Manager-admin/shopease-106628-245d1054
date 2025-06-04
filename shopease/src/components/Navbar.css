@@ -1,0 +1,48 @@
+.navbar-shop-ease {
+  background-color: #2D3748;
+  color: #fff;
+  padding: 0.75rem 0;
+  width: 100vw;
+  border-bottom: 1.5px solid #E2E8F0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.navbar-shop-ease-container {
+  max-width: 1060px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 18px;
+}
+.navbar-shop-ease-logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  gap: 7px;
+  color: #3182CE;
+  letter-spacing: 1px;
+}
+.navbar-logo-symbol {
+  font-size: 1.5rem;
+}
+.navbar-shop-ease-cart-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  font-size: 1.6rem;
+}
+.navbar-shop-ease-cart-count {
+  background: #3182CE;
+  color: #fff;
+  border-radius: 50%;
+  padding: 2px 7px;
+  font-size: 0.95rem;
+  position: absolute;
+  right: -12px;
+  top: -6px;
+}
