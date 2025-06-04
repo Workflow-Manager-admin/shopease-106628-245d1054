@@ -60,3 +60,28 @@ ERROR in ./src/components/Checkout.js 7:0-78
 Module not found: Error: Can't resolve '@stripe/react-stripe-js' in '/home/kavia/workspace/code-generation/shopease-106628-245d1054/shopease/src/components'
 
 webpack compiled with 3 errors
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve '@stripe/stripe-js' in '/home/kavia/workspace/code-generation/shopease-106628-245d1054/shopease/src'
+LOG from webpack.FileSystemInfo
+<w> Managed item /home/kavia/workspace/code-generation/shopease-106628-245d1054/shopease/node_modules/@stripe/stripe-js isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
+<w> Managed item /home/kavia/workspace/code-generation/shopease-106628-245d1054/shopease/node_modules/@stripe/react-stripe-js isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
++ 14 hidden lines
+
+ERROR in ./src/App.js 15:0-47
+Module not found: Error: Can't resolve '@stripe/stripe-js' in '/home/kavia/workspace/code-generation/shopease-106628-245d1054/shopease/src'
+
+ERROR in ./src/App.js 16:0-51
+Module not found: Error: Can't resolve '@stripe/react-stripe-js' in '/home/kavia/workspace/code-generation/shopease-106628-245d1054/shopease/src'
+
+ERROR in ./src/components/Checkout.js 7:0-78
+Module not found: Error: Can't resolve '@stripe/react-stripe-js' in '/home/kavia/workspace/code-generation/shopease-106628-245d1054/shopease/src/components'
+
+webpack compiled with 3 errors
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
